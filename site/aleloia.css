@@ -1,0 +1,259 @@
+body {
+  text-decoration: none;
+  background: #F5F5F5;
+}
+
+* {
+  padding: 0;
+    margin: 0;
+}
+
+.navbar {
+  display: flex;
+  width: 1520px;
+  
+  background-color: #F5F5F5;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.logo {
+  
+  color: #275257;
+ 
+}
+
+.icon-menu {
+  /* display: block; */
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: #275257;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  /* margin-left: auto; */
+  cursor: pointer;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 24px;
+  padding-left: 113px;
+  font-size: 16px;
+  
+}
+
+.Ponto {
+  list-style: none
+}
+.Ponto a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.Ponto:hover, .select {
+  background: white;
+}
+
+.botom {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: 46px;
+}
+
+.conteiner-buttons {
+  display: flex;
+  height: 80px;
+  align-items: center;
+ 
+
+}
+
+.container_botao {
+  box-sizing: border-box;
+  align-items: center;    
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 170px;
+  height: 48px;
+  border: 1px solid #275257;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #275257;
+  align-items: center;
+  
+} 
+
+.botao_secundario {
+  box-sizing: border-box;
+  
+  padding: 15px 48px;
+  width: 170px;
+  height: 48px;
+  background: #275257;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+.titulodois {
+  font-family: 'Poppins';
+  font-style: normal;
+  
+  font-size: 64px;
+  color: #141E32;
+  
+  padding-left: 380px;
+  padding-top: 50px;
+}
+
+.divisao {
+  height: 705px;
+  left: -23px;
+  background: #F5F5F5;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  }
+  
+
+  .titulo {
+    width: 550px;
+    height: 250px;
+    padding-left: 250px;
+    
+    font-size: 64px;
+    line-height: 96px;
+    color: #141E32;
+  }
+  
+
+  .descricao_txt {
+    width: 558px;
+    height: 100px;
+    
+    font-size: 20px;
+    line-height: 27px;
+    color: #969696;
+    padding-left: 250px;
+  }
+
+  .img {
+      border-radius: 20px;
+      }
+
+
+      .product-card {
+          width: 300px;
+          height: 250px;
+      
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          
+        }
+        
+        .product-card img {
+          width: 300px;
+          height: 200px;
+          
+        }
+          
+        .card-conteiner {
+          display: grid;
+          background: #F5F5F5;
+          grid-template-columns: 350px 250px;
+          
+          padding-left: 70px;
+        }
+      
+        .descricao {
+          
+          font-size: 60px;
+          color: #141E32;
+          padding-left: 60px;
+          padding-top: 50px;
+      }
+
+
+
+        .container_secundario {
+          
+          align-items: center;
+          display: flex;
+        }
+        
+
+        .container {
+          display: flex;
+          margin: 0 auto;
+          height: 680px;
+          align-items: center;
+        }
+        
+    
+      
+      .content {
+      width: 364px;
+      height: 327px;
+      left: 932px;
+      top: 1507px;
+      margin-right: 100px;
+      align-items: center;
+      }
+        
+      .card-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 40px;
+          padding-left: 60px;
+        }
+      
+     
+        .card {
+          width: 320px;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          border-radius: 20px;
+          overflow: hidden;
+          position: relative;
+        }
+    
+        
+
+
+
+   .rodape {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1520px;
+      height: 300px;
+      
+      gap: 100px;
+      background: #275257;
+      }
+
+      .listadois {
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          padding-left: 113px;
+          
+          color: #F5F5F5;
+      }
+
+
+
+         
