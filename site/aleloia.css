@@ -4,18 +4,20 @@ body {
 }
 
 * {
+  box-sizing: border-box;
   padding: 0;
-    margin: 0;
+  margin: 0;
 }
 
-.navbar {
+.nav {
   display: flex;
-  width: 1520px;
-  
+  width: 100%;
+  transition: all 0.4s;
   background-color: #F5F5F5;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: space-around;
+ 
 }
 
 
@@ -27,7 +29,7 @@ body {
 }
 
 .icon-menu {
-  /* display: block; */
+  display: none;
   width: 40px;
   height: 40px;
   font-size: 30px;
@@ -37,6 +39,7 @@ body {
   border-radius: 5px;
   /* margin-left: auto; */
   cursor: pointer;
+  padding-top: 8px;
 }
 
 .lista {
@@ -46,21 +49,23 @@ body {
   height: 24px;
   padding-left: 113px;
   font-size: 16px;
-  
+
+
+}
+
+ .lista :hover {
+  transform: scale(1.05);
 }
 
 .Ponto {
-  list-style: none
+  list-style: none;
+ /* background: #255257;*/
 }
 .Ponto a{
   text-decoration: none;
   color: black;
 }
 
-
-.Ponto:hover, .select {
-  background: white;
-}
 
 .botom {
   display: flex;
@@ -73,9 +78,9 @@ body {
   display: flex;
   height: 80px;
   align-items: center;
- 
+ }
 
-}
+ 
 
 .container_botao {
   box-sizing: border-box;
@@ -93,6 +98,10 @@ body {
   
 } 
 
+ .container_botao:hover {
+  transform: scale(1.05);
+}
+
 .botao_secundario {
   box-sizing: border-box;
   
@@ -106,14 +115,18 @@ body {
   margin-left: 10px;
 }
 
+ .botao_secundario:hover {
+  transform: scale(1.05);
+}
+
 .titulodois {
   font-family: 'Poppins';
   font-style: normal;
-  
+  text-align: center;
   font-size: 64px;
   color: #141E32;
   
-  padding-left: 380px;
+  
   padding-top: 50px;
 }
 
@@ -123,30 +136,38 @@ body {
   background: #F5F5F5;
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 150px;
   }
   
 
   .titulo {
     width: 550px;
     height: 250px;
-    padding-left: 250px;
-    
     font-size: 64px;
-    line-height: 96px;
+   /* line-height: 96px;*/
     color: #141E32;
+    padding-left: 250px;
   }
   
 
   .descricao_txt {
     width: 558px;
     height: 100px;
-    
     font-size: 20px;
     line-height: 27px;
     color: #969696;
     padding-left: 250px;
   }
+
+  .descricao_txtdois {
+    width: 558px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #969696;
+    padding-left: 250px;
+  }
+
 
   .img {
       border-radius: 20px;
@@ -176,16 +197,16 @@ body {
           
           padding-left: 70px;
         }
+        .card-conteiner :hover {
+          transform: scale(1.05);
+        }
       
         .descricao {
-          
+          text-align: center;
           font-size: 60px;
           color: #141E32;
-          padding-left: 60px;
           padding-top: 50px;
       }
-
-
 
         .container_secundario {
           
@@ -229,7 +250,9 @@ body {
           overflow: hidden;
           position: relative;
         }
-    
+        .card :hover {
+          transform: scale(1.05);
+        }
         
 
 
@@ -238,22 +261,101 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 1520px;
-      height: 300px;
-      
-      gap: 100px;
+      height: 200px;
       background: #275257;
       }
 
-      .listadois {
-          display: flex;
-          align-items: center;
-          gap: 40px;
-          padding-left: 113px;
-          
-          color: #F5F5F5;
+
+
+      .mostrar {
+        left: 0;
       }
 
+@media screen and (max-width: 568px) {
+       
+        .nav {
+          height: 80px;
+          align-items: center;
+        }
+        
+        .lista {
+           display: none; 
+        }
+      
+        .icon-menu {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+
+        .conteiner-buttons {
+          display: none;
+        }
+
+        .titulodois {
+          font-size: 40px;
+          padding-left: 10px;
+          height: 150px;
+        }
 
 
+        .titulo {
+          padding-left: 20px;
+          font-size: 40px;
+          height: 100px;
+        }
+
+        .divisao {
+            height: 600px;
+            display: block;
+            align-items: center;
          
+        }
+
+        .img {
+          width: 80%;
+          justify-content: center;
+          padding-left: 100px;
+          border-radius: 0;
+        }
+        
+        .descricao_txt {
+        
+        height: 150px;
+        }
+      
+        .container_secundario {
+          display: block;
+         height: 1180px;
+          }   
+
+          .descricao_txtdois {
+            height: 150px;
+            padding-left: 1px;
+          }
+
+      .card-conteiner {
+        display: block;
+        padding-left: 70px;
+        
+      }
+      .container{
+        display: block;
+        height: 2100px;
+      }
+
+        .descricao {
+          height: 100px;
+          padding-top: 10px;
+          font-size: 40px;
+          text-align: center;
+        }
+
+        .rodape {
+          padding-left: 50px;
+         padding-left: 100px;
+        }
+
+      }
+
+ 
