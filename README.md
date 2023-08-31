@@ -140,7 +140,9 @@ Para rodar esse projeto, instale:
 
 Essas foram as tecnologias utilizadas para o desenvolvimento desse projeto.
 
-- [TOOL](link).
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [API](llink)
 
 ---
 
