@@ -52,6 +52,7 @@ Para rodar esse projeto, instale:
 - [SQLite3](https://www.sqlite.org/index.html).
 - [API com express](llink)
 - [HTML e CSS](llink)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 
 ---
 
