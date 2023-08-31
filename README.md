@@ -112,25 +112,6 @@ Para rodar esse projeto, instale:
 >># Acesse a aplicação no link: http://localhost:3000.
 >>```
 >
-><h3 id="rodando-mobile">
->    📱 Rodando o aplicativo mobile ( Android & IOS ).
-></h3>
->
->>```bash
->># Acesse a pasta mobile
->>$ cd mobile
->>
->># Instale as dependências
->>$ yarn install
->>#ou
->>$ npm install 
->>
->># Inicie o servidor Expo
->>$ expo start
->>
->> # Conecte seu dispositivo iPhone ou Android ao servidor Expo, ou utilize um emulador;
->>```
->
 ---
 
 <!-- Tecnologias utilizadas no desenvolvimento do projeto -->
