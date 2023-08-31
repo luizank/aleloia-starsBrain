@@ -31,7 +31,6 @@
 - [Como usar](#como-usar).
     - [Rodando servidor](#rodando-server).
     - [Rodando aplicação web](#rodando-web).
-    - [Rodando aplicativo mobile](#rodando-mobile).
 - [Tecnologias](#tecnologias).
 - [Licença](#licença).
 - [Autores](#autores).
