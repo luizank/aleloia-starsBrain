@@ -38,7 +38,7 @@
 
 <!-- Sobre o projeto -->
 ## Sobre
-#### O projeto "Aleloia" foi concebido com o propósito de proporcionar aos amantes de filmes e séries uma experiência de entretenimento excepcional. Essa plataforma inovadora foi desenvolvida para oferecer uma ampla gama de conteúdo audiovisual, desde clássicos renomados até os mais recentes lançamentos, tudo em um único lugar. Com recursos personalizados de recomendação, alta qualidade de transmissão e interações sociais integradas, o Aleloia busca transformar a maneira como as pessoas exploram e desfrutam de seu entretenimento favorito, tornando-o mais acessível, envolvente e alegre do que nunca.
+#### O projeto "Aleloia" foi concebido com o propósito de proporcionar aos amantes de filmes e séries uma experiência de entretenimento excepcional. Essa plataforma inovadora foi desenvolvida para oferecer uma ampla gama de conteúdo audiovisual, desde clássicos renomados até os mais recentes lançamentos, tudo em um único lugar. Com recursos personalizados de recomendação, o Aleloia busca transformar a maneira como as pessoas exploram e desfrutam de seu entretenimento favorito, tornando-o mais acessível, envolvente e alegre do que nunca.
 
 ---
 
