@@ -49,7 +49,9 @@
 Para rodar esse projeto, instale:
 
 <!-- Nome da ferramenta e link para a sua documentação ou site -->
-- [TOOL](llink).
+- [SQLite3](https://www.sqlite.org/index.html).
+- [API com express](llink)
+- [HTML e CSS](llink)
 
 ---
 
@@ -58,7 +60,7 @@ Para rodar esse projeto, instale:
 > ### Clone o repositório.
 >>   ```bash
 >>  # Clone esse repositório
->>  $ git clone https://github.com/FelipePardim/PROJECT LINK
+>>  $ git clone https://github.com/luizank/aleloia-starsBrain
 >>   ```
 > ### Siga o guia a baixo para rodar o projeto.
 
@@ -155,11 +157,14 @@ Este projeto está sobre a [LICENSE](https://github.com/USUARIO/PROJECT LINK/LIC
 <h2 id="autores">
     👨🏽‍💻 Autores:
     <div>
-        <a href="https://github.com/USUARIO" margin="10px">
+        <a href="https://github.com/luizank" margin="10px">
             <img src="https://img.shields.io/badge/GitHub-USUARIO-6f42c1?logo=github"/>
         </a>
-        <a alt="Felipe Pardim" href="https://www.linkedin.com/in/USUARIO">
-            <img src="https://img.shields.io/badge/LinkedIn-USUARIO%20-blue?logo=linkedin"/>
+       <a href="https://github.com/Kuhn-thali" margin="10px">
+            <img src="https://img.shields.io/badge/GitHub-USUARIO-6f42c1?logo=github"/>
+        </a>
+	<a href="https://github.com/Lemo07" margin="10px">
+            <img src="https://img.shields.io/badge/GitHub-USUARIO-6f42c1?logo=github"/>
         </a>
     </div>
 </h2>
